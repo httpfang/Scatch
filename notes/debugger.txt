@@ -1,0 +1,7 @@
+const dbgr = require('debug')('development:mongoose');
+this is how we import dbuger.
+
+@@ ('development:mongoose'), tells the status of our dbuger. we are doing development and result is coming from mongoose, is what that line ment. we can write anything we want there but we write meaningful things.
+
+inorder to work with debuger we need to set the enviroment variable and we do it like this: go to terminal > set DEBUG=development:* > enter.
+this line is basicaly saying run all the things related to development status
